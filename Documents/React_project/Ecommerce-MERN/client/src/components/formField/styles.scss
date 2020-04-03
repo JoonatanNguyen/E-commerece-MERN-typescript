@@ -1,0 +1,64 @@
+.form-field {
+  width: 60%;
+  margin: auto;
+  &__title {
+    margin-top: 70px;
+    font-size: 45px;
+    font-weight: 600;
+  }
+
+  &__options {
+    margin-top: 70px;
+  }
+}
+
+.login-divider {
+  border-top: 1px solid #d9dadc;
+  display: block;
+  line-height: 1px;
+  margin: 37px 0;
+  position: relative;
+  text-align: center;
+  &__text {
+    background: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 0 20px;
+    text-transform: uppercase;
+  }
+}
+
+.login-form {
+  .input-container {
+    position: relative;
+    margin-bottom: 25px;
+    label {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      font-size: 16px;
+      color: grey;
+      pointer-events: none;
+      transition: all 0.5s ease-in-out;
+    }
+    input {
+      border: 0;
+      border-bottom: 1px solid #555;
+      background: transparent;
+      width: 100%;
+      padding: 8px 0 5px 0;
+      font-size: 16px;
+      color: black;
+      &:focus {
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #e74c3c;
+      }
+      &:focus ~ label,
+      &:valid ~ label {
+        top: -12px;
+        font-size: 12px;
+      }
+    }
+  }
+}

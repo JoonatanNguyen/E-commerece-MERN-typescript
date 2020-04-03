@@ -1,0 +1,43 @@
+.middle-wrapper {
+  padding-top: 90px;
+}
+
+.content-container {
+  .product-name {
+    width: 90%;
+    margin: auto;
+    background-color: #adabab1f;
+    &__name {
+      font-size: 60px;
+      font-weight: 300;
+      margin: 0 0 0 77px;
+      padding: 80px 0;
+    }
+  }
+
+  .advertisement-video {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    video {
+      width: 90%;
+    }
+  }
+
+  .products {
+    width: 90%;
+    margin: auto;
+
+    &__grid {
+      display: grid;
+      grid-template-columns: repeat(3, 32%);
+      grid-column-gap: 28px;
+      grid-row-gap: 28px;
+      justify-content: center;
+      margin: auto;
+      @media (max-width: 1000px) {
+        grid-template-columns: repeat(auto-fill, 246px);
+      }
+    }
+  }
+}

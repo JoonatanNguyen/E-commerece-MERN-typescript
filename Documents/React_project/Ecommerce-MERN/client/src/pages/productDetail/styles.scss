@@ -1,0 +1,42 @@
+.content {
+  padding-top: 89px;
+  &__product {
+    background-color: rgb(250, 250, 250);
+    display: flex;
+  }
+
+  &__round-video {
+    text-align: center;
+    padding-top: 100px;
+    video {
+      width: 700px;
+      height: 700px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+
+  .detail-info {
+    width: 60%;
+    margin: auto;
+    padding-top: 40px;
+    h3 {
+      font-weight: 300;
+      font-size: 35px;
+    }
+    &__label {
+      font-size: 25px;
+    }
+    &__description {
+      color: #737373;
+      word-spacing: 3px;
+    }
+  }
+
+  &__advertisement-video {
+    padding-top: 40px;
+    video {
+      width: 100%;
+    }
+  }
+}

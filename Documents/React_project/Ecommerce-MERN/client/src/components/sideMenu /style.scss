@@ -1,0 +1,20 @@
+.side-menu {
+  display: block;
+  z-index: 10;
+  cursor: pointer;
+  margin: 12px 0 0 19px;
+
+  &__span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 3px;
+    &--white {
+      background-color: white;
+    }
+
+    &--black {
+      background-color: black;
+    }
+  }
+}

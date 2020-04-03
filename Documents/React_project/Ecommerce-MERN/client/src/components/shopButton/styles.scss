@@ -1,0 +1,24 @@
+.button {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin: auto;
+  cursor: pointer;
+  &__text {
+    margin: 20px 0;
+  }
+  &__icon {
+    height: 50px !important;
+    width: 50px !important;
+    margin: 4px 0;
+    &--white {
+      color: white;
+    }
+    &--black {
+      color: black;
+      height: 30px !important;
+      width: 30px !important;
+      margin-top: 14px;
+    }
+  }
+}

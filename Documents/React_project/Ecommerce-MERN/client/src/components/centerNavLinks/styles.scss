@@ -1,0 +1,23 @@
+.nav-link-container {
+  .nav-link {
+    width: 51%;
+    margin: auto 0 auto 22%;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    .link {
+      list-style-type: none;
+      cursor: pointer;
+      margin: 10px auto;
+      text-align: center;
+      width: 20%;
+      color: white;
+      &--white {
+        color: white;
+      }
+      &--black {
+        color: black;
+      }
+    }
+  }
+}

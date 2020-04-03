@@ -1,0 +1,43 @@
+.info-wrapper {
+  width: 50%;
+  padding: 70px 20px 0 40px;
+
+  .info {
+    width: 70%;
+  }
+
+  &__name {
+    font-size: 24px;
+    margin-bottom: 35px;
+  }
+
+  &__short-description {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  &__long-description {
+    margin-bottom: 20px;
+  }
+  &__color {
+    margin-bottom: 20px;
+    .palette {
+      display: flex;
+      flex-direction: row;
+      &__circle {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: lightpink;
+        margin-right: 5px;
+        border: 2px solid black;
+        cursor: pointer;
+      }
+      &__name {
+        margin-top: 20px;
+      }
+    }
+  }
+  &__price {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,46 @@
+.product-wrapper {
+  background-color: #d3d3d32e;
+  text-align: center;
+  cursor: pointer;
+  &__image {
+    img {
+      width: 100%;
+    }
+  }
+
+  .product-info {
+    padding: 6px 0;
+    &__name {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      margin: 10px 0;
+    }
+
+    &__description {
+      font-weight: 300;
+      color: #737373;
+      margin: 10px 0;
+    }
+
+    &__colors {
+      margin: 10px 0;
+      display: flex;
+      justify-content: center;
+
+      .palette-circle {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: lightpink;
+        margin-right: 5px;
+        border: 2px solid black;
+        cursor: pointer;
+      }
+    }
+
+    &__price {
+      margin: 10px 0;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.single-card {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(250, 250, 250);
+  color: black;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &__name {
+    font-size: 24px;
+    margin-left: 30px;
+  }
+
+  &__image {
+    width: 60%;
+    margin: auto;
+    padding: 30px 0;
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.added-product-wrapper {
+  display: flex;
+  flex-direction: row;
+  background-color: #adabab1f;
+  margin: 10px 0;
+  &__image {
+    width: 30%;
+    img {
+      width: 100%;
+    }
+  }
+  .product-cart-info {
+    width: 70%;
+    margin: 60px 48px 0 90px;
+    text-align: left;
+    &__name {
+      font-size: 20px;
+    }
+    &__price {
+      margin-top: 30px;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.navigation-container {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  z-index: 100;
+
+  &__banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo-nav-links {
+    width: 40%;
+  }
+
+  .icon-navbar {
+    &--white {
+      color: white;
+    }
+
+    &--black {
+      color: black;
+    }
+  }
+
+  .functions-section {
+    margin-right: 10px;
+  }
+}
