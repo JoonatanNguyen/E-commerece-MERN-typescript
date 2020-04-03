@@ -1,4 +1,4 @@
-# TypeScript MEN (MongoDB, ExpressJS, NodeJS) boilerplate
+# TypeScript MEN (MongoDB, ExpressJS, ReactJS, NodeJS) boilerplate
 This boilerplate is based on the [TypeScript Node Starter](https://github.com/microsoft/TypeScript-Node-Starter) whose documentation is below, with some modifications
 
 # TypeScript Node Starter
